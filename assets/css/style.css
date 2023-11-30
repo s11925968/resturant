@@ -1,0 +1,683 @@
+/*public styles*/
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.fixed-clear {
+  clear: both;
+}
+/*end styles*/
+.header {
+  background-image: url(../img/shutterstock_277750193.jpg);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+.navbar {
+  color: white;
+  margin: 20px;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.logo {
+  color: white;
+  width: 23%;
+  float: left;
+}
+.logo img {
+  width: 140px;
+}
+.nav ul li {
+  width: 40px;
+  float: left;
+  padding: 20px;
+}
+.nav ul li a {
+  color: white;
+  font-size: 20px;
+}
+.nav {
+  float: right;
+  width: 40%;
+}
+.header-container {
+  height: 100vh;
+  text-align: center;
+  padding-top: 40px;
+}
+.header-container img {
+  width: 22%;
+}
+
+.header-container h1 {
+  color: white;
+  margin-bottom: 30px;
+  font-size: 70px;
+  margin-bottom: 10px;
+  line-height: 2em;
+}
+.header-container p {
+  color: white;
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+.header-container button {
+  font-size: 15px;
+  padding: 15px;
+  margin: 2px;
+  border-radius: 4px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.header-container button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.button-backcolor {
+  color: white;
+  background-color: #c1ab84;
+}
+/*start section tow*/
+.family-business {
+  background-color: #f8f8f8;
+}
+.chef {
+  float: left;
+  width: 50%;
+  margin-left: 50px;
+}
+
+.chef-text {
+  float: left;
+  width: 40%;
+  margin: auto;
+  margin-top: 150px;
+}
+.chef-text h1 {
+  font-size: 50px;
+}
+.chef-text h2 {
+  font-family: "Dancing Script", cursive;
+  color: #c1ab84;
+  font-size: 40px;
+}
+.chef-text p {
+  line-height: 1.8;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.clear {
+  clear: both;
+}
+
+.fa {
+  border: 8px solid #c1ab84;
+  border-radius: 100%;
+  font-size: 30px;
+  background-color: #c1ab84;
+  color: white;
+  margin-left: 10px;
+}
+.chef-text ul li {
+  padding-top: 10px;
+  display: block;
+  font-size: 20px;
+  line-height: 2.5;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/*end section tow*/
+/*start section three*/
+.Reviewers {
+  width: 100%;
+  height: 90vh;
+  background-color: #f8f8f8;
+}
+.Reviewers-views {
+  align-items: center;
+  width: 80%;
+  margin-left: 150px;
+}
+.Reviewers-images img {
+  width: 90%;
+  padding-top: 150px;
+}
+.Reviewers-images {
+  width: 40%;
+  float: left;
+  padding-left: 100px;
+}
+.Reviewers-text {
+  width: 40%;
+  float: left;
+  padding-top: 150px;
+  padding-left: 60px;
+}
+.Reviewers-text h1 {
+  font-family: serif;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 43px;
+}
+.Reviewers-text h2 {
+  font-size: 30px;
+  color: #c1ab84;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 30px;
+}
+.Reviewers-text p {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 1.8;
+}
+.like {
+  color: #c1ab84;
+  font-size: 20px;
+}
+.Reviewers-text ul li {
+  line-height: 3;
+}
+
+/*end section three*/
+/*start background shutterstock(four)*/
+.shutterstock {
+  background-image: url(../img/shutterstock.jpg);
+  background-size: cover;
+  background-position: 40% 50%;
+  width: 100%;
+  height: 70vh;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/*end background shutterstock(four)*/
+/*start mune (five)*/
+.mune-resturent {
+  width: 100%;
+  height: 130vh;
+  background-color: #f8f8f8;
+}
+.mune-resturent h1 {
+  text-align: center;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.mune-resturent h2 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #c1ab84;
+  font-family: "Dancing Script", cursive;
+}
+.mune-resturent .mune {
+  width: 90%;
+  margin-left: 15%;
+}
+.Delicious-Salad,
+.Incredible-Steak,
+.Fantastic-Desserts,
+.Premium-Support,
+.Free-Updates,
+.Satisfied-Clients {
+  display: inline-block;
+  margin-left: 5px;
+  width: 25%;
+}
+.Delicious-Salad img,
+.Incredible-Steak img,
+.Fantastic-Desserts img,
+.Satisfied-Clients img,
+.Free-Updates img,
+.Premium-Support img {
+  width: 100%;
+}
+.Delicious-Salad h3,
+.Fantastic-Desserts h3,
+.Incredible-Steak h3,
+.Premium-Support h3,
+.Satisfied-Clients h3,
+.Free-Updates h3 {
+  line-height: 1.8;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+}
+.Delicious-Salad p,
+.Incredible-Steak p,
+.Fantastic-Desserts p,
+.Premium-Support p,
+.Satisfied-Clients p,
+.Free-Updates p {
+  text-align: center;
+  line-height: 1.8;
+}
+/*end mune (five)*/
+/*start loation (sex)*/
+
+.loaction-your {
+  width: 100%;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+/*start information*/
+.info-your {
+  padding-left: 50px;
+  margin-top: 10%;
+  float: left;
+  width: 40%;
+}
+.info-your h1 {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.info-your p {
+  width: 80%;
+  font-size: 20px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.info-your h3 {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.info-your ul li {
+  font-size: 15px;
+  line-height: 5;
+}
+.info-your ul i {
+  font-size: 30px;
+  margin-right: 15px;
+}
+
+/*end information*/
+/*start location*/
+.clear {
+  clear: both;
+}
+.location iframe {
+  padding-left: 50px;
+  margin-top: 10%;
+  float: none;
+  width: 300px;
+  height: 300px;
+}
+/*end location*/
+
+/*end loaction (sex)*/
+
+/*start footer*/
+.footer {
+  width: 100%;
+  height: 70vh;
+  background-color: #403d38;
+}
+/*satrt About-us*/
+
+.About-us {
+  width: 20%;
+  float: left;
+  margin: 20px;
+}
+.About-us h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+/*end About-us*/
+/*start Useful-Links*/
+
+.Useful-Links {
+  width: 20%;
+  float: left;
+  margin: 20px;
+}
+.Useful-Links h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+.Useful-Links ul li {
+  line-height: 2.5;
+}
+.clear {
+  clear: both;
+}
+.Useful-Links ul i {
+  margin-right: 15px;
+}
+.new1 {
+  border: 1px solid #969696;
+}
+/*end start-links*/
+/*start Opening-Hours*/
+
+.Opening-Hours {
+  width: 20%;
+  float: left;
+  margin: 20px;
+}
+.Opening-Hours h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.Opening-Hours ul li {
+  line-height: 2.5;
+}
+.Opening-Hours ul i {
+  margin-right: 15px;
+}
+/*end Opening-Hours*/
+/*start Contact-Details*/
+
+.Contact-Details {
+  width: 20%;
+  float: left;
+  margin: 20px;
+}
+
+.Contact-Details h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.Contact-Details ul li {
+  line-height: 3.5;
+}
+
+.Contact-Details ul i {
+  margin-right: 15px;
+  font-size: 20px;
+}
+/*start media*/
+@media screen and (max-width: 600px) {
+  .Opening-Hours {
+    padding-left: 10px;
+    width: 100%;
+    float: none;
+    margin: 0px;
+  }
+  .Opening-Hours h2 {
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  .Opening-Hours ul li {
+    line-height: 2.5;
+  }
+  .Opening-Hours ul i {
+    margin-right: 15px;
+  }
+  /*end Opening-Hours*/
+  /*start Contact-Details*/
+
+  .Contact-Details {
+    padding-left: 10px;
+    width: 100%;
+    float: none;
+    margin: 0px;
+  }
+
+  .Contact-Details h2 {
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  .Contact-Details ul li {
+    line-height: 3.5;
+  }
+
+  .Contact-Details ul i {
+    margin-right: 15px;
+    font-size: 20px;
+  }
+  .footer {
+    width: 100%;
+    height: 150vh;
+    background-color: #403d38;
+  }
+  /*satrt About-us*/
+  .new1 {
+    border: 1px solid #969696;
+    width: 40%;
+  }
+  .About-us {
+    width: 100%;
+    float: none;
+    margin: 0px;
+  }
+  .About-us h2 {
+    color: white;
+    margin-bottom: 0px;
+  }
+  .About-us p {
+    margin-bottom: 0px;
+  }
+  /*end About-us*/
+  /*start Useful-Links*/
+
+  .Useful-Links {
+    padding-left: 10px;
+    width: 100%;
+    float: none;
+    margin: 0px;
+  }
+  .Useful-Links h2 {
+    color: white;
+    margin-bottom: 20px;
+  }
+  .Useful-Links p {
+    margin-bottom: 20px;
+  }
+  .Useful-Links ul li {
+    line-height: 2.5;
+  }
+  .location iframe {
+    padding-left: 50px;
+    margin-top: 10%;
+    float: none;
+    width: 200px;
+    height: 200px;
+  }
+  .loaction-your {
+    margin-top: 200%;
+    width: 100%;
+    height: 100vh;
+    background-color: #f8f8f8;
+  }
+  /*start information*/
+  .info-your {
+    padding-left: 0px;
+    margin-top: 0%;
+    float: none;
+    width: 100%;
+  }
+  .info-your h1 {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 30px;
+    padding-bottom: 0px;
+  }
+  .info-your p {
+    width: 100%;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 0px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .info-your h3 {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 10px;
+    margin-bottom: 0px;
+  }
+  .info-your ul li {
+    font-size: 15px;
+    line-height: 5;
+  }
+  .info-your ul i {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  .mune-resturent {
+    width: 100%;
+    height: 200vh;
+    background-color: blue;
+    background-color: #f8f8f8;
+  }
+  .mune-resturent .mune {
+    width: 100%;
+  }
+  .Free-Updates {
+    display: inline-block;
+    margin-left: 0px;
+    width: 60%;
+  }
+  .Satisfied-Clients {
+    display: block;
+    margin-left: 0px;
+    width: 60%;
+  }
+
+  .Premium-Support {
+    display: block;
+    margin-left: 0px;
+    width: 60%;
+  }
+  .Fantastic-Desserts {
+    display: block;
+    margin-left: 0px;
+    width: 60%;
+  }
+  .Delicious-Salad {
+    display: block;
+    margin-left: 0px;
+    width: 60%;
+  }
+  .Incredible-Steak {
+    display: block;
+    margin-left: 0px;
+    width: 60%;
+  }
+  .navbar {
+    color: black;
+    text-align: center;
+    position: static;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .nav {
+    float: none;
+    width: 100%;
+  }
+  .nav ul li {
+    font-size: 10px;
+  }
+  .nav ul li {
+    width: 20px;
+    float: left;
+    padding: 20px;
+  }
+  .nav ul li a {
+    color: white;
+    font-size: 15px;
+  }
+  .logo {
+    color: white;
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .chef-text h1 {
+    font-size: 30px;
+  }
+  .chef-text h2 {
+    font-size: 25px;
+    padding: 3px;
+  }
+  .chef img {
+    text-align: center;
+    width: 100%;
+  }
+  .chef-text {
+    width: 100%;
+    font-size: 10px;
+  }
+  .chef-text ul li {
+    font-size: 15px;
+  }
+  .chef-text p {
+    font-size: 15px;
+    padding: 2px;
+  }
+  .Reviewers {
+    width: 100%;
+  }
+  .Reviewers-images img {
+    width: 90%;
+    padding-top: 0;
+    margin: 10px;
+  }
+  .Reviewers-images {
+    width: 100%;
+    float: none;
+    padding-left: 0;
+  }
+  .Reviewers-text {
+    width: 100%;
+    float: none;
+    padding-top: 40px;
+    text-align: left;
+    padding-left: 0px;
+  }
+  .Reviewers-text p {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 1.8;
+  }
+  .Reviewers-text h1 {
+    font-size: 30px;
+  }
+  .shutterstock {
+    background-image: url(../img/shutterstock.jpg);
+    background-size: cover;
+    background-position: 70% center;
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+}
+/*end media*/
+/*end Contact-Details*/
+
+/*end footer*/
+/*satrt footer*/
+.end-section {
+  width: 100%;
+  height: 50vh;
+  background-color: #353330;
+  text-align: center;
+}
+.text-end p {
+  color: white;
+  font-size: 22px;
+}
+.communication ul li {
+  display: inline-block;
+  font-size: 60px;
+  padding: 5px;
+}
+.communication ul li:hover {
+  color: #0275d8;
+}
+/*end footer
+@media only screen and (min-width: 576px) {...}
+@media only screen and (min-width: 768px) {...}
+@media only screen and (min-width: 992px) {...}
+@media only screen and (min-width: 1200px) {...}*/
